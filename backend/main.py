@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from db.database import engine, Base
-from api import applications, dashboard
+from routes import applications, dashboard
 
 try:
     Base.metadata.create_all(bind=engine)

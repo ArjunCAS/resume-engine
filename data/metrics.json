@@ -1,0 +1,67 @@
+{
+  "verified_metrics": {
+    "total_registered_users": {
+      "value": "800K+",
+      "context": "Total registered users on the platform, NOT daily or monthly active users",
+      "inflatable": false
+    },
+    "monthly_active_users": {
+      "value": "~1K",
+      "context": "Approximate monthly active users",
+      "inflatable": false
+    },
+    "database_records": {
+      "value": "80K+",
+      "context": "Total records across users, jobs, and preferences tables",
+      "inflatable": false
+    },
+    "recommendation_latency_before": {
+      "value": "15s",
+      "context": "Recommendation response time before optimization",
+      "inflatable": false
+    },
+    "recommendation_latency_after": {
+      "value": "5-7s",
+      "context": "Recommendation response time after algorithm redesign",
+      "inflatable": false
+    },
+    "team_size": {
+      "value": "3-5",
+      "context": "Total engineering team size at startup",
+      "inflatable": false
+    },
+    "codebase_size": {
+      "value": "50K-150K LOC",
+      "context": "Approximate lines of code in the codebase",
+      "inflatable": false
+    },
+    "feature_cycle_length": {
+      "value": "1-3 months",
+      "context": "Typical feature ownership cycle duration",
+      "inflatable": false
+    },
+    "microservices_count": {
+      "value": "4",
+      "context": "Number of backend microservices designed",
+      "inflatable": false
+    },
+    "ui_dev_time_reduction": {
+      "value": "40%",
+      "context": "Reduction in UI development time from component architecture",
+      "inflatable": false
+    },
+    "bundle_size_reduction": {
+      "value": "35%",
+      "context": "Reduction in initial bundle size from code-splitting",
+      "inflatable": false
+    }
+  },
+  "inflation_rules": {
+    "never_claim_dau": true,
+    "never_inflate_user_count": true,
+    "never_claim_senior_authority": true,
+    "max_team_size_claim": 5,
+    "allowed_scale_descriptors": ["800K+ registered users", "~1K MAU", "80K+ records"],
+    "forbidden_scale_descriptors": ["800K+ active users", "800K+ DAU", "millions of users"]
+  }
+}

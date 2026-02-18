@@ -1,0 +1,184 @@
+{
+  "name": "Arjun Shakthi",
+  "email": "arjunshakthi@example.com",
+  "phone": "+91-XXXXXXXXXX",
+  "location": "Chennai, India",
+  "linkedin": "linkedin.com/in/arjunshakthi",
+  "github": "github.com/arjunshakthi",
+  "summary_positioning": "Full-Stack Engineer with strong frontend architecture skills and backend microservices experience in startup environments. End-to-end feature owner with cross-team collaboration across product and design. Experienced in building user-facing platforms serving 800K+ registered users.",
+  "target_level": "SDE-2",
+  "experience": [
+    {
+      "company": "Startup Company",
+      "role": "Full-Stack Engineer",
+      "duration": "2+ years",
+      "start_date": "2023-01",
+      "end_date": "present",
+      "team_size": "3-5 engineers",
+      "bullets": [
+        {
+          "id": "fe_arch_01",
+          "category": "frontend_architecture",
+          "impact_type": "technical_leadership",
+          "tags": ["react", "component-architecture", "design-system", "reusable-components"],
+          "base_content": "Designed and implemented a modular React component architecture with a shared design system, reducing UI development time for new features by 40%."
+        },
+        {
+          "id": "fe_arch_02",
+          "category": "frontend_architecture",
+          "impact_type": "performance",
+          "tags": ["react", "state-management", "redux", "performance"],
+          "base_content": "Architected frontend state management layer using Redux Toolkit, establishing data-fetching patterns and caching strategies that standardized API consumption across the application."
+        },
+        {
+          "id": "fe_arch_03",
+          "category": "frontend_architecture",
+          "impact_type": "scalability",
+          "tags": ["react", "code-splitting", "lazy-loading", "bundle-optimization"],
+          "base_content": "Implemented code-splitting and lazy-loading strategies across the React SPA, reducing initial bundle size by 35% and improving first contentful paint metrics."
+        },
+        {
+          "id": "be_arch_01",
+          "category": "backend_architecture",
+          "impact_type": "system_design",
+          "tags": ["microservices", "node.js", "service-boundaries", "api-design"],
+          "base_content": "Defined service boundaries and designed REST API contracts for 4 backend microservices in a 3-5 engineer startup team, establishing the foundational backend architecture."
+        },
+        {
+          "id": "be_arch_02",
+          "category": "backend_architecture",
+          "impact_type": "data_modeling",
+          "tags": ["postgresql", "schema-design", "database", "data-modeling"],
+          "base_content": "Designed PostgreSQL database schemas handling 80K+ records across users, jobs, and preferences, with indexed query patterns supporting sub-second response times."
+        },
+        {
+          "id": "be_arch_03",
+          "category": "backend_architecture",
+          "impact_type": "system_design",
+          "tags": ["authentication", "jwt", "security", "api-gateway"],
+          "base_content": "Implemented secure authentication flows using JWT-based token management with refresh token rotation and role-based access control for the platform."
+        },
+        {
+          "id": "async_01",
+          "category": "async_system",
+          "impact_type": "architecture_decision",
+          "tags": ["kafka", "event-driven", "async", "messaging"],
+          "base_content": "Defined and implemented the async communication strategy using Apache Kafka for event-driven processing between microservices, decoupling recommendation and notification pipelines."
+        },
+        {
+          "id": "async_02",
+          "category": "async_system",
+          "impact_type": "reliability",
+          "tags": ["kafka", "dead-letter-queue", "error-handling"],
+          "base_content": "Configured Kafka consumer groups with dead-letter queue handling, ensuring reliable message processing across the recommendation and user-activity tracking services."
+        },
+        {
+          "id": "scale_01",
+          "category": "scale",
+          "impact_type": "platform_reach",
+          "tags": ["users", "scale", "platform"],
+          "base_content": "Built and maintained a user-facing platform serving 800K+ registered users and approximately 1K monthly active users, handling job matching and recommendation workflows."
+        },
+        {
+          "id": "perf_01",
+          "category": "performance",
+          "impact_type": "optimization",
+          "tags": ["algorithm", "latency", "optimization", "recommendation"],
+          "base_content": "Redesigned the job recommendation algorithm, reducing recommendation latency from 15 seconds to 5-7 seconds through query optimization and caching layer introduction."
+        },
+        {
+          "id": "perf_02",
+          "category": "performance",
+          "impact_type": "optimization",
+          "tags": ["database", "profiling", "query-optimization", "postgresql"],
+          "base_content": "Performed database query profiling and optimization on PostgreSQL, identifying and resolving N+1 query patterns and adding composite indexes for frequently accessed endpoints."
+        },
+        {
+          "id": "cross_team_01",
+          "category": "cross_team",
+          "impact_type": "collaboration",
+          "tags": ["product", "design", "collaboration", "requirements"],
+          "base_content": "Collaborated closely with product and design teams to translate product requirements into technical specifications, participating in sprint planning and effort estimation for 1-3 month feature cycles."
+        },
+        {
+          "id": "cross_team_02",
+          "category": "cross_team",
+          "impact_type": "knowledge_sharing",
+          "tags": ["mentoring", "knowledge-sharing", "team"],
+          "base_content": "Conducted internal knowledge-sharing sessions on frontend architecture patterns and Kafka integration strategies, improving team onboarding efficiency."
+        },
+        {
+          "id": "ownership_01",
+          "category": "ownership",
+          "impact_type": "feature_delivery",
+          "tags": ["end-to-end", "feature-ownership", "full-stack"],
+          "base_content": "Owned features end-to-end from technical design through deployment, handling frontend UI, backend API, database schema changes, and production rollout within 1-3 month delivery cycles."
+        },
+        {
+          "id": "ownership_02",
+          "category": "ownership",
+          "impact_type": "code_review",
+          "tags": ["code-review", "pr-review", "quality"],
+          "base_content": "Served as regular PR reviewer for the engineering team, enforcing code quality standards and architectural consistency across frontend and backend codebases."
+        },
+        {
+          "id": "refactor_01",
+          "category": "refactor",
+          "impact_type": "code_quality",
+          "tags": ["refactoring", "legacy-code", "module", "maintainability"],
+          "base_content": "Led large module refactors within a 50K-150K LOC codebase, decomposing monolithic React components into testable, reusable units and migrating legacy API patterns to standardized service layers."
+        },
+        {
+          "id": "cicd_01",
+          "category": "ci_cd",
+          "impact_type": "developer_experience",
+          "tags": ["ci-cd", "github-actions", "deployment", "automation"],
+          "base_content": "Configured CI/CD pipelines using GitHub Actions for automated build, lint, and deployment workflows, reducing manual deployment steps and improving release confidence."
+        },
+        {
+          "id": "security_01",
+          "category": "security",
+          "impact_type": "security",
+          "tags": ["input-validation", "xss", "security", "sanitization"],
+          "base_content": "Implemented input validation and sanitization layers across API endpoints to prevent XSS and injection vulnerabilities, following OWASP guidelines for secure web application development."
+        },
+        {
+          "id": "prod_01",
+          "category": "production",
+          "impact_type": "reliability",
+          "tags": ["production", "debugging", "incident", "monitoring"],
+          "base_content": "Actively handled production bug triage and resolution, implementing structured logging and error tracking to reduce mean time to detection for critical user-facing issues."
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science and Engineering",
+      "university": "Your University Name",
+      "graduation_year": "2022",
+      "gpa": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Job Recommendation Platform",
+      "description": "Full-stack job matching platform with personalized recommendations",
+      "tags": ["react", "node.js", "postgresql", "kafka", "redis"],
+      "highlights": [
+        "Built recommendation engine serving 800K+ registered users",
+        "Designed microservices architecture with event-driven async processing",
+        "Optimized recommendation latency from 15s to 5-7s"
+      ]
+    }
+  ],
+  "skills": {
+    "frontend": ["React", "Redux Toolkit", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Responsive Design"],
+    "backend": ["Node.js", "Express.js", "REST APIs", "Microservices Architecture"],
+    "databases": ["PostgreSQL", "Redis", "MongoDB"],
+    "messaging": ["Apache Kafka"],
+    "tools": ["Git", "GitHub Actions", "Docker", "VS Code", "Postman", "Jira"],
+    "practices": ["Agile/Scrum", "Code Review", "CI/CD", "API Design"]
+  }
+}

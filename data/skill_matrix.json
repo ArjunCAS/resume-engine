@@ -1,0 +1,145 @@
+{
+  "skills": {
+    "React": {
+      "proficiency": "advanced",
+      "years": 2,
+      "category": "frontend",
+      "aliases": ["react.js", "reactjs"],
+      "evidence_bullet_ids": ["fe_arch_01", "fe_arch_02", "fe_arch_03", "refactor_01"]
+    },
+    "Redux Toolkit": {
+      "proficiency": "advanced",
+      "years": 2,
+      "category": "frontend",
+      "aliases": ["redux", "rtk"],
+      "evidence_bullet_ids": ["fe_arch_02"]
+    },
+    "TypeScript": {
+      "proficiency": "intermediate",
+      "years": 2,
+      "category": "frontend",
+      "aliases": ["ts", "typescript"],
+      "evidence_bullet_ids": ["fe_arch_01", "fe_arch_02"]
+    },
+    "JavaScript": {
+      "proficiency": "advanced",
+      "years": 3,
+      "category": "frontend",
+      "aliases": ["js", "es6", "es2015+", "ecmascript"],
+      "evidence_bullet_ids": ["fe_arch_01", "fe_arch_02", "fe_arch_03"]
+    },
+    "HTML5": {
+      "proficiency": "advanced",
+      "years": 3,
+      "category": "frontend",
+      "aliases": ["html"],
+      "evidence_bullet_ids": []
+    },
+    "CSS3": {
+      "proficiency": "advanced",
+      "years": 3,
+      "category": "frontend",
+      "aliases": ["css", "scss", "sass"],
+      "evidence_bullet_ids": []
+    },
+    "Tailwind CSS": {
+      "proficiency": "intermediate",
+      "years": 1,
+      "category": "frontend",
+      "aliases": ["tailwind", "tailwindcss"],
+      "evidence_bullet_ids": ["fe_arch_01"]
+    },
+    "Node.js": {
+      "proficiency": "intermediate",
+      "years": 2,
+      "category": "backend",
+      "aliases": ["node", "nodejs"],
+      "evidence_bullet_ids": ["be_arch_01", "be_arch_03"]
+    },
+    "Express.js": {
+      "proficiency": "intermediate",
+      "years": 2,
+      "category": "backend",
+      "aliases": ["express", "expressjs"],
+      "evidence_bullet_ids": ["be_arch_01"]
+    },
+    "REST APIs": {
+      "proficiency": "advanced",
+      "years": 2,
+      "category": "backend",
+      "aliases": ["rest", "restful", "api design", "api development"],
+      "evidence_bullet_ids": ["be_arch_01", "security_01"]
+    },
+    "Microservices Architecture": {
+      "proficiency": "intermediate",
+      "years": 2,
+      "category": "backend",
+      "aliases": ["microservices", "service-oriented"],
+      "evidence_bullet_ids": ["be_arch_01", "async_01"]
+    },
+    "PostgreSQL": {
+      "proficiency": "intermediate",
+      "years": 2,
+      "category": "database",
+      "aliases": ["postgres", "pg", "sql"],
+      "evidence_bullet_ids": ["be_arch_02", "perf_02"]
+    },
+    "Redis": {
+      "proficiency": "basic",
+      "years": 1,
+      "category": "database",
+      "aliases": ["redis cache"],
+      "evidence_bullet_ids": ["perf_01"]
+    },
+    "MongoDB": {
+      "proficiency": "basic",
+      "years": 1,
+      "category": "database",
+      "aliases": ["mongo", "nosql"],
+      "evidence_bullet_ids": []
+    },
+    "Apache Kafka": {
+      "proficiency": "intermediate",
+      "years": 1,
+      "category": "messaging",
+      "aliases": ["kafka", "event streaming", "message queue"],
+      "evidence_bullet_ids": ["async_01", "async_02"]
+    },
+    "Git": {
+      "proficiency": "advanced",
+      "years": 3,
+      "category": "tools",
+      "aliases": ["github", "version control"],
+      "evidence_bullet_ids": ["ownership_02", "cicd_01"]
+    },
+    "GitHub Actions": {
+      "proficiency": "intermediate",
+      "years": 1,
+      "category": "tools",
+      "aliases": ["ci/cd", "github ci"],
+      "evidence_bullet_ids": ["cicd_01"]
+    },
+    "Docker": {
+      "proficiency": "basic",
+      "years": 1,
+      "category": "tools",
+      "aliases": ["containers", "containerization"],
+      "evidence_bullet_ids": []
+    },
+    "Agile": {
+      "proficiency": "intermediate",
+      "years": 2,
+      "category": "process",
+      "aliases": ["scrum", "agile/scrum", "sprint planning"],
+      "evidence_bullet_ids": ["cross_team_01"]
+    }
+  },
+  "category_weights": {
+    "frontend": 0.35,
+    "backend": 0.25,
+    "database": 0.15,
+    "messaging": 0.10,
+    "tools": 0.10,
+    "process": 0.05
+  }
+}
