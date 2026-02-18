@@ -5,7 +5,6 @@ export default function StatsCards({ stats }: { stats: DashboardStats }) {
   const inProgress = (by_status['applied'] ?? 0) + (by_status['screen'] ?? 0)
   const interviews = by_status['interview'] ?? 0
   const offers = by_status['offer'] ?? 0
-  const rejected = by_status['rejected'] ?? 0
   const responseRate = total > 0
     ? Math.round(((interviews + offers + (by_status['screen'] ?? 0)) / total) * 100)
     : 0
