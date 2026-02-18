@@ -5,7 +5,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from db.database import engine, Base
 from api import applications, dashboard
 
-Base.metadata.create_all(bind=engine)
+try:
+    Base.metadata.create_all(bind=engine)
+except Exception:
+    pass  # Tables created on first successful connection
 
 app = FastAPI(title="Job Application Tracker")
 

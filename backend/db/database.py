@@ -10,8 +10,11 @@ if _url:
     DATABASE_URL = _url.replace("postgres://", "postgresql://", 1)
     engine = create_engine(DATABASE_URL, pool_pre_ping=True)
 else:
-    # Local dev: SQLite
-    DB_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "tracker.db")
+    # Local dev: SQLite — use /tmp on Vercel (read-only filesystem elsewhere)
+    if os.environ.get("VERCEL"):
+        DB_PATH = "/tmp/tracker.db"
+    else:
+        DB_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "tracker.db")
     DATABASE_URL = f"sqlite:///{DB_PATH}"
     engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 
