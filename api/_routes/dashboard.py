@@ -3,9 +3,9 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 from datetime import datetime, timedelta, timezone
 
-from db.database import get_db
-from db.models import Application, StatusHistory
-from schemas import DashboardStats, ReminderItem, ApplicationOut
+from _db.database import get_db
+from _db.models import Application
+from _schemas import DashboardStats, ReminderItem, ApplicationOut
 
 router = APIRouter(prefix="/api/dashboard", tags=["dashboard"])
 

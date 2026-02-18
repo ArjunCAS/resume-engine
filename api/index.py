@@ -1,7 +1,29 @@
-import sys
 import os
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
-# Add backend directory to Python path so imports work
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "backend"))
+from _db.database import engine, Base
+from _routes import applications, dashboard
 
-from main import app  # noqa: E402
+try:
+    Base.metadata.create_all(bind=engine)
+except Exception:
+    pass
+
+app = FastAPI(title="Job Application Tracker")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=os.environ.get("CORS_ORIGINS", "http://localhost:5173").split(","),
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+app.include_router(applications.router)
+app.include_router(dashboard.router)
+
+
+@app.get("/api/health")
+def health():
+    return {"status": "ok"}

@@ -5,9 +5,9 @@ from sqlalchemy import or_
 from datetime import datetime, timezone
 from typing import Optional
 
-from db.database import get_db
-from db.models import Application, StatusHistory
-from schemas import (
+from _db.database import get_db
+from _db.models import Application, StatusHistory
+from _schemas import (
     ApplicationUpdate,
     ApplicationOut,
     ApplicationDetail,
